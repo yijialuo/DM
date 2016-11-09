@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:text="习近平"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="631406010219"
+            android:textSize="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/sex"
+            android:text="男"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/bj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="计科2班"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginTop="7dp"
+        android:layout_width="200dp"
+        android:layout_height="205dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/kk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旷课0次"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/cd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="迟到0次"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:id="@+id/ill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="病假0次"
+                android:textSize="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/next"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一个"
+        android:textSize="30dp"/>
+</LinearLayout>
+
